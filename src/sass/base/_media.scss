@@ -9,10 +9,19 @@
     .promo {
         &__wrapper {
             padding-right: 10px;
+            align-items: center;
         }
     }
     .advantages {
         padding: 70px 5px 64px 5px;
+    }
+    .consultation {
+        padding: 100px 20px 108px 30px;
+    }
+    .title {
+        &_left {
+            font-size: 30px;
+        }            
     }
 }
 
@@ -28,10 +37,7 @@
             width: 33%;
         }
     }
-    .promo {
-        &__wrapper {
-            align-items: center;
-        }
+    .promo { 
         &__header {
             font-size: 38px;
         }
@@ -54,6 +60,16 @@
             &:first-child {
                 margin-top: 0;
             }
+        }
+    }
+    .title {
+        &_left {
+            font-size: 25px;
+        }            
+    }
+    .consultation {
+        &__descr {
+            font-size: 18px;
         }
     }
     
@@ -93,5 +109,22 @@
     }
     .title {
         font-size: 24px;
+        &_left {
+            font-size: 19px;
+        }
+    }
+    .consultation {
+        padding-top: 40px;
+        &__descr {
+            font-size: 17px;
+        }
+        input {
+            width: 260px;
+        }
+    }
+    .button {
+        &_subbmit {
+            width: 260px;
+        }
     }
 }
