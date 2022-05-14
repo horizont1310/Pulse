@@ -30,6 +30,20 @@
             margin: 0 auto;
         }
     }
+    .tns-nav {
+        display: none;
+    }
+
+                    /* это кнопки */
+
+    /* .tns-nav {
+        button {
+            background-color: red;
+        }
+        .tns-nav-active {
+            background-color: blue;
+        }
+    } */
     /* [data-controls=prev] {
         position: absolute;
         top: 50%;

@@ -22,7 +22,16 @@ const slider = tns({
   slideBy: 'page',
   autoplay: false,
   controls: false,
-  nav: false
+  nav: true,
+  navPosition: "bottom",
+  /* responsive: {
+    640: {
+    },
+    700: {
+    },
+    900: {
+    }
+  } */
  /*  controlsText: [
     '<img src="icons/left.svg">',
     '<img src="icons/right.svg">'
