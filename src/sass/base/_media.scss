@@ -1,4 +1,27 @@
-@media (max-width: 1200px) {
+@media (max-width: 1200px) {    
+    .button {
+        &:hover {
+            background: $main-color;
+            color: #FFFFFF;
+            font-weight: 500;
+            font-size: 12px;
+        }
+        &_main {
+            &:hover {
+                font-size: 16px;
+            }
+        }   
+        &_subbmit {
+            &:hover {
+                font-size: 16px;
+            }
+        }
+        &_mini {
+            &:hover {
+                font-size: 14px;
+            }
+        }    
+    }    
     .carousel {
         padding: 20px 0;
         .prev {
@@ -16,6 +39,29 @@
             }
         }
     }
+    .footer {
+        &__info {
+            width: 300px;
+            height: 200px;
+            padding: 20px 20px 10px 20px;
+        }
+        &__addr {
+            font-size: 15px;
+            a {
+                text-decoration: underline;
+            }
+        }
+        &__phone {       
+            font-size: 15px;
+        }    
+        &__social-item {       
+            width: 41px;
+            height: 40px;
+            img {
+                height: 23px;
+            }
+        }
+    }  
     
 }
 
@@ -159,8 +205,25 @@
             margin-left: 40px;
         }
     }
-    
-    
+    .footer {
+        min-height: 200px;
+        &__map {
+            display: none;
+        }
+        &__info {
+            width: 100%;
+            height: 200px;
+            padding: 20px 20px 10px 20px;
+        }
+        &__addr {
+            a {
+                font-size: 18px;
+            }
+        }
+        &__phone {
+            font-size: 16px;
+        }
+    }      
 }
 
 @media (max-width: 575px) {
@@ -243,4 +306,17 @@
             margin-top: 30px;
         }
     }
+    .footer {
+        &__info {
+            padding: 20px 20px 10px 20px;
+        }
+        &__addr {
+            a {
+                font-size: 16px;
+            }
+        }
+        &__phone {
+            font-size: 15px;
+        }
+    }      
 }

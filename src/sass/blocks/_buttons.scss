@@ -9,20 +9,36 @@
     color: #FFFFFF;
     text-align: center;
     text-transform: uppercase;
+    &:hover {
+        transition: 0.4s all;
+        background-color: rgba(251, 233, 8, 1);
+        color: #000;
+        font-size: 13px;
+        font-weight: 700;
+    }
     &_main {
         width: 300px;
         height: 50px;
         font-size: 16px;
         margin-top: 130px;
+        &:hover {
+            font-size: 17px;
+        }
     }   
     &_subbmit {
         width: 100%;
         height: 58px;
         font-size: 16px;
+        &:hover {
+            font-size: 17px;
+        }
     }
     &_mini {
         width: 135px;
         height: 44px;
         font-size: 14px;
+        &:hover {
+            font-size: 15px;
+        }
     }    
 }
