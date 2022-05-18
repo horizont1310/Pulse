@@ -61,8 +61,7 @@
                 height: 23px;
             }
         }
-    }  
-    
+    }      
 }
 
 @media (max-width: 991px) {
@@ -272,6 +271,10 @@
         input {
             width: 260px;
         }
+        label.error {
+            margin-top: -10px;
+            text-align: left;
+        }
     }
     .button {
         &_subbmit {
@@ -318,5 +321,39 @@
         &__phone {
             font-size: 15px;
         }
-    }      
+    }  
+    .modal {
+        width: 300px;
+        height: 303px;
+        padding: 30px 20px 20px 20px;
+        .feed-form_mt25 {
+            margin-top: 10px;
+        }
+        form {
+            max-width: 100%;
+            input {
+                height: 45px;
+            }
+        }
+        &__close {
+            right: 5px;
+            top: 5px;
+        }
+        &__subtitle {
+            font-size: 16px;
+        }
+        .button {
+            &_subbmit {
+                height: 45px;
+            }
+        }
+        label.error {
+            margin-top: -10px;
+            margin-bottom: 5px;
+            text-align: left;
+            font-size: 13px;
+        }
+            
+    }
+        
 }
