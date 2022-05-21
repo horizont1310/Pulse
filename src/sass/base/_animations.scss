@@ -1,0 +1,28 @@
+@keyframes heartbeat {
+    from {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.4);
+    }
+    to {
+        transform: scale(1);
+    }
+}
+.animate__animated.animate {
+    &__fadeInUp {
+        --animate-duration: 2s;
+      }
+    &__fadeOutRight {
+        animation: fadeOutRight 1.5s ease infinite;
+    }
+    &__flash {
+        animation: flash 1.5s ease infinite;
+    }
+    &__tada {
+        animation: tada 1.5s ease infinite;
+    }
+    &__fadeIn {
+        animation: fadeIn 1.5s ease infinite;
+    }
+}
